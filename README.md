@@ -16,7 +16,7 @@ Instruction to run this project:
 git clone https://github.com/your-username/your-project-name.git
 cd your-project-name
 
-2. Install dependencies
+2. Install dependencies: 
    npm install
 3. Run the application:
    npm run dev
