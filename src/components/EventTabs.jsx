@@ -1,13 +1,34 @@
-const EventTabs = () => {
+const EventTabs = ({ activeTab, setActiveTab }) => {
   return (
     <div className="flex justify-between items-center">
-      <button className="border-b-[1.6px] border-[#DA6049] py-8 text-center text-2xl font-medium w-1/3 text-[#DA6049]">
+      <button
+        onClick={() => setActiveTab("info")}
+        className={`border-b-[1.6px] py-8 text-center text-2xl font-medium w-1/3 ${
+          activeTab === "info"
+            ? "border-[#DA6049] text-[#DA6049]"
+            : "border-none text-[#171717]"
+        }`}
+      >
         Info
       </button>
-      <button className="border-b-[1.6px] border-[#DA6049] py-8 text-center text-2xl font-medium w-1/3 text-[#DA6049]">
+      <button
+        onClick={() => setActiveTab("players")}
+        className={`border-b-[1.6px] py-8 text-center text-2xl font-medium w-1/3 ${
+          activeTab === "players"
+            ? "border-[#DA6049] text-[#DA6049]"
+            : "border-none text-[#171717]"
+        }`}
+      >
         Player
       </button>
-      <button className="border-b-[1.6px] border-[#DA6049] py-8 text-center text-2xl font-medium w-1/3 text-[#DA6049]">
+      <button
+        onClick={() => setActiveTab("comments")}
+        className={`border-b-[1.6px] py-8 text-center text-2xl font-medium w-1/3 ${
+          activeTab === "comments"
+            ? "border-[#DA6049] text-[#DA6049]"
+            : "border-none text-[#171717]"
+        }`}
+      >
         Comments
       </button>
     </div>

@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <EventHeader />
-      <div className="px-10 flex flex-col space-y-10">
+      <div className="px-2 sm:px-5 md:px-10 flex flex-col space-y-10">
         <EventBanner />
         <EventDetailsContainer />
       </div>
