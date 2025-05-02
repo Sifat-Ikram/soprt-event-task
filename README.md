@@ -7,7 +7,7 @@ A modern frontend application built with **ReactJS**.
 
 ## 🚀 Live Demo
 
-🔗 [Live Site URL](https://your-deployed-site.com) &nbsp; *(optional)*
+🔗 [Live Site URL](https://football-event.vercel.app/) &nbsp;
 
 Instruction to run this project:
 
