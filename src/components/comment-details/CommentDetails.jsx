@@ -64,7 +64,7 @@ const CommentDetails = () => {
   };
 
   return (
-    <div className="p-5 space-y-4 bg-[#FFFFFF] rounded-[30px]">
+    <div className="p-1 sm:p-3 md:p-4 lg:p-5 space-y-4 bg-[#FFFFFF] rounded-[30px]">
       {comments.map((comment) => (
         <div key={comment.id} className="space-y-2">
           <CommentSection comment={comment} />

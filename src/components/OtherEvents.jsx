@@ -44,7 +44,7 @@ const OtherEvents = () => {
       <h1 className="text-2xl font-bold text-[#261B36]">
         Other events you may like
       </h1>
-      <div className="flex items-center gap-4 w-full">
+      <div className="flex flex-col sm:flex-row items-center gap-4 w-full">
         {events.map((event) => (
           <div
             key={event.id}
