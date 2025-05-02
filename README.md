@@ -1,12 +1,22 @@
-# React + Vite
+# 🎯 Project Name
+<h1>Football Event</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern frontend application built with **ReactJS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [Live Site URL](https://your-deployed-site.com) &nbsp; *(optional)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Instruction to run this project:
+
+1. **Clone the repository**
+
+git clone https://github.com/your-username/your-project-name.git
+cd your-project-name
+
+2. Install dependencies
+   npm install
+3. Run the application:
+   npm run dev
